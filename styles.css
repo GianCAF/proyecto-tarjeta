@@ -1,0 +1,40 @@
+body {
+    background: hsl(70, 18%, 80%);
+    font-family: sans-serif;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.card {
+    background: linear-gradient(180deg,red, green );
+    border-radius: 20px;
+    max-width: 300px;
+    padding: 20px 20px;
+    box-shadow: 5px 10px rgb(0,50,0);
+    color: white;
+}
+
+.card img {
+    max-width: 200px;
+    max-height: 200px;
+    min-height: 100px;
+    min-width: 100px;
+    margin: auto;
+}
+
+.info {
+    font-style: italic;
+}
+
+a {
+    color: #DDDDDD;
+}
+
+a:hover {
+    color: red;
+}
